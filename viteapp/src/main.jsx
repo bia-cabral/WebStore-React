@@ -8,6 +8,7 @@ import Section from './components/Section/Section.jsx'
 import Categories from './components/Categories/Categories.jsx'
 import Announcement from './components/Announcement/Announcement.jsx'
 import Ads from './components/Ads/Ads.jsx'
+import Details from './components/Details/Details.jsx'
 import Prod from './assets/controle.png'
 import Teclado from './assets/Teclado.png'
 import Televisao from './assets/Televisao.png'
@@ -34,6 +35,9 @@ import EletricCar from './assets/EletricCar.png'
 import Soccer from './assets/Soccer.png'
 import GamePad from './assets/gamepad.png'
 import Jacket from './assets/jacket.png'
+import FastService from './assets/FastServices.png'
+import CustomerService from './assets/CustomerServices.png'
+import MoneyService from './assets/MoneyServices.png'
 
 const textoSection = "Today"
 const tituloSection = "Flash Sales"
@@ -259,7 +263,23 @@ const ProdutosExlpore = [
     "qntAvaliacoes": "55",
   }
 ]
-
+const DetailsInfos = [
+  {
+    "img": FastService,
+    "titulo": "FREE AND FAST DELIVERY",
+    "subtitulo": "Free delivery for all orders over $140"
+  },
+  {
+    "img": CustomerService,
+    "titulo": "24/7 CUSTOMER SERVICE",
+    "subtitulo": "Friendly 24/7 customer support"
+  },
+  {
+    "img": MoneyService,
+    "titulo": "MONEY BACK GUARANTEE",
+    "subtitulo": "We reurn money within 30 days"
+  }
+]
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -271,5 +291,6 @@ createRoot(document.getElementById('root')).render(
     <Announcement/>
     <Section subtitle={textoExplore} title={tituloExplore} dictProduto={ProdutosExlpore} adicionais={botoesAdicionaisExplore}/>
     <Ads subtitle={textoAds} title={tituloAds}/>
+    <Details dictInfos={DetailsInfos}/>
   </StrictMode>
 )

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from "./Categories.module.css"
 import setaEsquerda from '../../assets/LeftArrow.png'
 import setaDireita from '../../assets/RightArrow.png'
