@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    user-select: none;
+}
+
+.anuncio {
+    display: flex;
+}
+
+.img {
+    margin: 130px 135px 0px 135px;
+    position: relative;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin: 413px 929px 0px 191px;
+    gap: 24px;
+}
+
+.cronometroDays, .cronometroHours, .cronometroMinutes, .cronometroSeconds {
+    width: 62px;
+    height: 62px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.dias, .horas, .minutos, .segundos {
+    font-weight: bold;
+}
+
+.info {
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+}
+
+.textButton {
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    font-size: 16px;
+    margin-top: 515px;
+    margin-left: 191px;
+    width: 171px;
+    height: 56px;
+    background-color: #00FF66;
+    border-radius: 4px;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+}

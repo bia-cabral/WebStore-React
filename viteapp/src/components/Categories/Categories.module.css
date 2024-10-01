@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.section {
+    margin-left: 135px;
+    margin-top: 80px;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #DB4444;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.rediv {
+    height: 2rem;
+    width: 1rem;
+    background-color: #DB4444;
+    border-radius: 4px;
+}
+
+.linhaTitulo {
+    display: flex;
+    margin-top: 24px;
+}
+
+.titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.grupoSetas {
+    display: flex;
+    margin-left: 780px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.imgseta {
+    width: 46px;
+    height: 46px;
+}
+
+.unCategoria {
+    border: rgba(0, 0, 0, 0.500) solid 1px;
+    width: 170px;
+    height: 145px;
+    align-content: center;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.unCategoria:hover {
+    border: none;
+    background-color: #DB4444;
+}
+
+.listCategories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.line {
+    width: 1170px;
+    margin-top: 60px;
+}

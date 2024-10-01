@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    user-select: none;
+}
+
+.section {
+    margin-left: 135px;
+    margin-top: 70px;
+}
+
+.rediv {
+    height: 2rem;
+    width: 1rem;
+    background-color: #DB4444;
+    border-radius: 4px;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #DB4444;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.timer {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.info {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+.linhaTitulo {
+    display: flex;
+    margin-top: 24px;
+    position: relative;
+}
+
+.relogio {
+    display: flex;
+    flex-direction: row;
+}
+
+.cronometroDays {
+    margin-left: 87px;
+}
+
+.cronometroHours {
+    margin-left: 17px;
+}
+
+.cronometroMinutes{
+    margin-left: 17px;
+}
+
+.cronometroSeconds {
+    margin-left: 17px;
+}
+
+.doisPontos {
+    margin-top: 20px;
+    margin-left: 17px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #E07575;
+}
+
+.grupoSetas {
+    display: flex;
+    margin-left: 1070px;
+    margin-top: 10px;
+    gap: 10px;
+    position: absolute;
+}
+
+.imgseta {
+    width: 46px;
+    height: 46px;
+}
+
+.listProdutos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.produtos {
+    margin-top: 40px;
+}
+
+.unProd {
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    flex-direction: column;
+    position: relative;
+}
+
+.imgProd {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 35px 40px 35px 40px;
+}
+
+.Desc {
+    position: absolute;
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 55px;
+    height: 26px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 12px 203px 212px 12px;
+}
+
+.infos {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 12px 12px 162px 224px;
+    gap: 8px;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+}
+
+.tituloProd {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.preco {
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.valorAtual {
+    color: #DB4444;
+}
+
+.valorOriginal {
+    opacity: 50%;
+    text-decoration: line-through;
+}
+
+.avaliacao {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-content: baseline;
+}
+
+.qntAvaliacoes {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    opacity: 50%;
+    font-size: 14px;
+}
+
+.addCarrinho {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.unProd:hover .addCarrinho {
+    opacity: 1;
+    visibility: visible;
+}
+
+.textButton {
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    font-size: 16px;
+    margin: 60px 606px 0px 468px;
+    width: 234px;
+    height: 56px;
+    background-color: #DB4444;
+    border-radius: 4px;
+    text-align: center;
+    align-content: center;
+}
+
+.line {
+    width: 1170px;
+    margin-top: 60px;
+}
+
+.Hide {
+    display: none;
+}
+
+.button {
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    font-size: 16px;
+    margin-left: 1011px;
+    width: 159px;
+    height: 56px;
+    background-color: #DB4444;
+    border-radius: 4px;
+    text-align: center;
+    align-content: center;
+}
