@@ -26,6 +26,13 @@ import Bag from './assets/bag.png'
 import CPU from './assets/cpu.png'
 import Bookshelf from './assets/book-shelf.png'
 import DogFood from './assets/dog-food.png'
+import Canon from './assets/camera.png'
+import Laptop from './assets/laptop.png'
+import Curology from './assets/curology.png'
+import EletricCar from './assets/EletricCar.png'
+import Soccer from './assets/Soccer.png'
+import GamePad from './assets/gamepad.png'
+import Jacket from './assets/jacket.png'
 
 const textoSection = "Today"
 const tituloSection = "Flash Sales"
@@ -46,7 +53,10 @@ const botoesAdicionaisSelling = {
   "line": "false"
 }
 const botoesAdicionaisExplore = {
-  
+  "titulo": "setas",
+  "base": "botao",
+  "cronometro": "false",
+  "line": "false"
 }
 const ProdutosSection = [
   {
@@ -175,6 +185,76 @@ const ProdutosExlpore = [
     "qntEstrelas": TresEstrelas,
     "qntAvaliacoes": "35",
   },
+  {
+    "srcProd": Canon,
+    "tag": "",
+    "corTag": "",
+    "tituloProd": "CANON EOS DSLR Camera",
+    "valorAtual": "$360",
+    "valorOriginal": "",
+    "qntEstrelas": QuatroEstrelas,
+    "qntAvaliacoes": "95",
+  },
+  {
+    "srcProd": Laptop,
+    "tag": "",
+    "corTag": "",
+    "tituloProd": "ASUS FHD Gaming Laptop",
+    "valorAtual": "$700",
+    "valorOriginal": "",
+    "qntEstrelas": CincoEstrelas,
+    "qntAvaliacoes": "325",
+  },
+  {
+    "srcProd": Curology,
+    "tag": "",
+    "corTag": "",
+    "tituloProd": "Curology Product Set",
+    "valorAtual": "$500",
+    "valorOriginal": "",
+    "qntEstrelas": QuatroEstrelas,
+    "qntAvaliacoes": "145",
+  },
+  {
+    "srcProd": EletricCar,
+    "tag": "NEW",
+    "corTag": "#00FF66",
+    "tituloProd": "Kids Electric Car",
+    "valorAtual": "$960",
+    "valorOriginal": "",
+    "qntEstrelas": CincoEstrelas,
+    "qntAvaliacoes": "65",
+  },
+  {
+    "srcProd": Soccer,
+    "tag": "",
+    "corTag": "",
+    "tituloProd": "Jr. Zoom Soccer Cleats",
+    "valorAtual": "$1160",
+    "valorOriginal": "",
+    "qntEstrelas": CincoEstrelas,
+    "qntAvaliacoes": "35",
+  },
+  {
+    "srcProd": GamePad,
+    "tag": "NEW",
+    "corTag": "#00FF66",
+    "tituloProd": "GP11 Shooter USB Gamepad",
+    "valorAtual": "$660",
+    "valorOriginal": "",
+    "qntEstrelas": FourHalfStar,
+    "qntAvaliacoes": "65",
+  },
+  {
+    "srcProd": Jacket,
+    "tag": "",
+    "corTag": "",
+    "tituloProd": "Quilted Satin Jacket",
+    "valorAtual": "$660",
+    "valorOriginal": "",
+    "qntEstrelas": FourHalfStar,
+    "qntAvaliacoes": "55",
+  }
 ]
 
 
