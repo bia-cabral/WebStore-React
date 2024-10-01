@@ -7,6 +7,7 @@ import Header from './components/Header/Header.jsx'
 import Section from './components/Section/Section.jsx'
 import Categories from './components/Categories/Categories.jsx'
 import Announcement from './components/Announcement/Announcement.jsx'
+import Ads from './components/Ads/Ads.jsx'
 import Prod from './assets/controle.png'
 import Teclado from './assets/Teclado.png'
 import Televisao from './assets/Televisao.png'
@@ -40,6 +41,8 @@ const textoSelling = "This Month"
 const tituloSelling = "Best Selling Products"
 const textoExplore = "Our Products"
 const tituloExplore = "Explore Our Products"
+const textoAds = "Featured"
+const tituloAds = "New Arrival"
 const botoesAdicionaisSection = {
   "titulo": "setas",
   "base": "botao",
@@ -267,5 +270,6 @@ createRoot(document.getElementById('root')).render(
     <Section subtitle={textoSelling} title={tituloSelling} dictProduto={ProdutosSelling} adicionais={botoesAdicionaisSelling}/>
     <Announcement/>
     <Section subtitle={textoExplore} title={tituloExplore} dictProduto={ProdutosExlpore} adicionais={botoesAdicionaisExplore}/>
+    <Ads subtitle={textoAds} title={tituloAds}/>
   </StrictMode>
 )

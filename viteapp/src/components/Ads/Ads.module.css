@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.section {
+    margin-left: 135px;
+    margin-top: 70px;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #DB4444;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.rediv {
+    height: 2rem;
+    width: 1rem;
+    background-color: #DB4444;
+    border-radius: 4px;
+}
+
+.linhaTitulo {
+    display: flex;
+    margin-top: 24px;
+    position: relative;
+}
+
+.titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.imagens {
+    display: grid;
+    grid-template-areas: 
+    "img1 img2 img2"
+    "img1 img3 img4";
+    grid-template-columns: 570px 270px 270px;
+    grid-template-rows: 284px 284px;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.img1 {
+    grid-area: img1;
+    width: 570px;
+    height: 600px;
+}
+
+.img2 {
+    grid-area: img2;
+    width: 570px;
+    height: 264px;
+}
+
+.img3 {
+    grid-area: img3;
+    width: 270px;
+    height: 284px;
+}
+
+.img4 {
+    grid-area: img4;
+    width: 270px;
+    height: 284px;
+} 
