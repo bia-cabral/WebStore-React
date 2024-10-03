@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    user-select: none;
+}
+
+.Footer {
+    background-color: black;
+    height: 440px;
+    width: 100%;
+    margin-top: 140px;
+    position: relative;
+}
+
+.list {
+    position: absolute;
+    color: white;
+    margin-top: 80px;
+    margin-left: 135px;
+    display: flex;
+    flex-direction: row;
+    gap: 87px;
+    align-content: start;
+}
+
+.titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.subtitulo {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.descricao {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    position: relative;
+    margin-top: 16px;
+}
+
+.email {
+    background-color: black;
+    width: 217px;
+    height: 48px;
+    border: 1.5px solid #FAFAFA;
+    border-radius: 4px;
+    color: white;
+}
+
+.imgArrow {
+    position: absolute;
+    margin: 12px 15px 12px 178px;
+}
+
+.email::placeholder {
+    padding: 12px 71px 12px 16px;
+}
+
+.obs {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #FAFAFA;
+    opacity: 70%;
+    margin-top: 24px;
+}
+
+.support {
+    width: 175px;
+}
+
+.download {
+    display: grid;
+    grid-template-areas: 
+    "qrcode google"
+    "qrcode apple";
+    grid-template-rows: 40px 40px;
+    margin-top: 8px;
+    align-content: center;
+    gap: 8px;
+}
+
+.icons {
+    margin-top: 24px;
+    gap: 24px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.qrCode {
+    grid-area: qrcode;
+    width: 80px;
+    height: 80px;
+}
+
+.google {
+    grid-area: google;
+    width: 104px;
+    height: 30px;
+}
+
+.apple {
+    grid-area: apple;
+    width: 104px;
+    height: 30px;
+}
+
+.subir {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    right: 89px;
+    bottom: 472px;
+}

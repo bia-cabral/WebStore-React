@@ -9,6 +9,7 @@ import Categories from './components/Categories/Categories.jsx'
 import Announcement from './components/Announcement/Announcement.jsx'
 import Ads from './components/Ads/Ads.jsx'
 import Details from './components/Details/Details.jsx'
+import Footer from './components/Footer/Footer.jsx'
 import Prod from './assets/controle.png'
 import Teclado from './assets/Teclado.png'
 import Televisao from './assets/Televisao.png'
@@ -292,5 +293,6 @@ createRoot(document.getElementById('root')).render(
     <Section subtitle={textoExplore} title={tituloExplore} dictProduto={ProdutosExlpore} adicionais={botoesAdicionaisExplore}/>
     <Ads subtitle={textoAds} title={tituloAds}/>
     <Details dictInfos={DetailsInfos}/>
+    <Footer />
   </StrictMode>
 )

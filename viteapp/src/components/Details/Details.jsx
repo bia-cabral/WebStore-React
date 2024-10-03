@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from "./Details.module.css"
-import UpArrow from '../../assets/UpArrow.png'
 
 const Details = ({dictInfos}) => {
     return (
@@ -14,7 +13,6 @@ const Details = ({dictInfos}) => {
                     </div>
                 ))
             }
-            <img src={UpArrow} alt="subir" className={styles.subir}/>
         </div>
     )
 }
