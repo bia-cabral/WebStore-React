@@ -243,3 +243,37 @@
     text-align: center;
     align-content: center;
 }
+
+.cores {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    gap: 8px;
+}
+
+input[type='radio'] {
+    display: none;
+}
+  
+.radioContainer label {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    cursor: pointer;
+}
+  
+.customRadio {
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+}
+  
+.customRadio, span {
+    transition: 0.5s ease;
+}
+  
+input[type='radio']:checked + .customRadio {
+    border: 2px solid black;
+}

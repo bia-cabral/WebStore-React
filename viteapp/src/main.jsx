@@ -58,19 +58,22 @@ const botoesAdicionaisSection = {
   "titulo": "setas",
   "base": "botao",
   "cronometro": "true",
-  "line": "true"
+  "line": "true",
+  "cores": "false"
 }
 const botoesAdicionaisSelling = {
   "titulo": "botao",
   "base": "none",
   "cronometro": "false",
-  "line": "false"
+  "line": "false",
+  "cores": "false"
 }
 const botoesAdicionaisExplore = {
   "titulo": "setas",
   "base": "botao",
   "cronometro": "false",
-  "line": "false"
+  "line": "false",
+  "cores": "true"
 }
 const ProdutosSection = [
   {
@@ -82,6 +85,7 @@ const ProdutosSection = [
     "valorOriginal": "$160",
     "qntEstrelas": CincoEstrelas,
     "qntAvaliacoes": "88",
+    "label": "Prod"
   },
   {
     "srcProd": Teclado,
@@ -91,7 +95,8 @@ const ProdutosSection = [
     "valorAtual": "$960",
     "valorOriginal": "$1160",
     "qntEstrelas": QuatroEstrelas,
-    "qntAvaliacoes": "75"
+    "qntAvaliacoes": "75",
+    "label": "Teclado"
   },
   {
     "srcProd": Televisao,
@@ -101,7 +106,8 @@ const ProdutosSection = [
     "valorAtual": "$370",
     "valorOriginal": "$400",
     "qntEstrelas": CincoEstrelas,
-    "qntAvaliacoes": "99"
+    "qntAvaliacoes": "99",
+    "label": "Televisao"
   },
   {
     "srcProd": Cadeira,
@@ -111,7 +117,8 @@ const ProdutosSection = [
     "valorAtual": "$375",
     "valorOriginal": "$400",
     "qntEstrelas": FourHalfStar,
-    "qntAvaliacoes": "99"
+    "qntAvaliacoes": "99",
+    "label": "Cadeira"
   }
 ]
 const Categorias = [
@@ -162,6 +169,7 @@ const ProdutosSelling = [
     "valorOriginal": "$360",
     "qntEstrelas": CincoEstrelas,
     "qntAvaliacoes": "65",
+    "label": "Coat"
   },
   {
     "srcProd": Bag,
@@ -172,6 +180,7 @@ const ProdutosSelling = [
     "valorOriginal": "$1160",
     "qntEstrelas": FourHalfStar,
     "qntAvaliacoes": "65",
+    "label": "Bag"
   },
   {
     "srcProd": CPU,
@@ -182,6 +191,7 @@ const ProdutosSelling = [
     "valorOriginal": "$170",
     "qntEstrelas": FourHalfStar,
     "qntAvaliacoes": "65",
+    "label": "CPU"
   },
   {
     "srcProd": Bookshelf,
@@ -192,6 +202,7 @@ const ProdutosSelling = [
     "valorOriginal": "",
     "qntEstrelas": CincoEstrelas,
     "qntAvaliacoes": "65",
+    "label": "Bookshelf"
   }
 ]
 const ProdutosExlpore = [
@@ -204,6 +215,7 @@ const ProdutosExlpore = [
     "valorOriginal": "",
     "qntEstrelas": TresEstrelas,
     "qntAvaliacoes": "35",
+    "label": "DogFood"
   },
   {
     "srcProd": Canon,
@@ -214,6 +226,7 @@ const ProdutosExlpore = [
     "valorOriginal": "",
     "qntEstrelas": QuatroEstrelas,
     "qntAvaliacoes": "95",
+    "label": "Canon"
   },
   {
     "srcProd": Laptop,
@@ -224,6 +237,7 @@ const ProdutosExlpore = [
     "valorOriginal": "",
     "qntEstrelas": CincoEstrelas,
     "qntAvaliacoes": "325",
+    "label": "Laptop"
   },
   {
     "srcProd": Curology,
@@ -234,6 +248,7 @@ const ProdutosExlpore = [
     "valorOriginal": "",
     "qntEstrelas": QuatroEstrelas,
     "qntAvaliacoes": "145",
+    "label": "Curology"
   },
   {
     "srcProd": EletricCar,
@@ -244,6 +259,9 @@ const ProdutosExlpore = [
     "valorOriginal": "",
     "qntEstrelas": CincoEstrelas,
     "qntAvaliacoes": "65",
+    "label": "EletricCar",
+    "cor1": "#FB1314", // cor quando clicado
+    "cor2": "#DB4444", // cor quando não clicado
   },
   {
     "srcProd": Soccer,
@@ -254,6 +272,9 @@ const ProdutosExlpore = [
     "valorOriginal": "",
     "qntEstrelas": CincoEstrelas,
     "qntAvaliacoes": "35",
+    "label": "Soccer",
+    "cor1": "#EEFF61", // cor quando clicado
+    "cor2": "#DB4444", // cor quando não clicado
   },
   {
     "srcProd": GamePad,
@@ -264,6 +285,9 @@ const ProdutosExlpore = [
     "valorOriginal": "",
     "qntEstrelas": FourHalfStar,
     "qntAvaliacoes": "65",
+    "label": "GamePad",
+    "cor1": "#000000", // cor quando clicado
+    "cor2": "#DB4444", // cor quando não clicado
   },
   {
     "srcProd": Jacket,
@@ -274,6 +298,9 @@ const ProdutosExlpore = [
     "valorOriginal": "",
     "qntEstrelas": FourHalfStar,
     "qntAvaliacoes": "55",
+    "label": "Jacket",
+    "cor1": "#184A48", // cor quando clicado
+    "cor2": "#DB4444", // cor quando não clicado
   }
 ]
 const DetailsInfos = [
