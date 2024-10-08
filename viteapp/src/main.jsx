@@ -24,6 +24,12 @@ import SmartWatch from './assets/Category-SmartWatch.png'
 import Camera from './assets/Category-Camera.png'
 import Headphone from './assets/Category-Headphone.png'
 import Games from './assets/Category-Gamepad.png'
+import CellphoneWhite from './assets/Category-CellPhone-White.png'
+import ComputerWhite from './assets/Category-Computer-White.png'
+import SmartWatchWhite from './assets/Category-SmartWatch-White.png'
+import CameraWhite from './assets/Category-Camera-White.png'
+import HeadphoneWhite from './assets/Category-Headphone-White.png'
+import GamesWhite from './assets/Category-Gamepad-White.png'
 import Coat from './assets/coat.png'
 import Bag from './assets/bag.png'
 import CPU from './assets/cpu.png'
@@ -111,31 +117,37 @@ const ProdutosSection = [
 const Categorias = [
   {
     "imgCategoria": Cellphone,
+    "imgCategoriaHover": CellphoneWhite,
     "nomeCategoria": "Phones",
     "label": "Cellphone"
   },
   {
     "imgCategoria": Computer,
+    "imgCategoriaHover": ComputerWhite,
     "nomeCategoria": "Computers",
     "label": "Computer"
   },
   {
     "imgCategoria": SmartWatch,
+    "imgCategoriaHover": SmartWatchWhite,
     "nomeCategoria": "SmartWatch",
     "label": "SmartWatch"
   },
   {
     "imgCategoria": Camera,
+    "imgCategoriaHover": CameraWhite,
     "nomeCategoria": "Camera",
     "label": "Camera"
   },
   {
     "imgCategoria": Headphone,
+    "imgCategoriaHover": HeadphoneWhite,
     "nomeCategoria": "HeadPhones",
     "label": "Headphone"
   },
   {
     "imgCategoria": Games,
+    "imgCategoriaHover": GamesWhite,
     "nomeCategoria": "Gaming",
     "label": "Games"
   }

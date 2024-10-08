@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from "./Categories.module.css"
 import setaEsquerda from '../../assets/LeftArrow.png'
 import setaDireita from '../../assets/RightArrow.png'
-import CellphoneWhite from '../../assets/Category-CellPhone-White.png'
-import ComputerWhite from '../../assets/Category-Computer-White.png'
-import SmartWatchWhite from '../../assets/Category-SmartWatch-White.png'
-import CameraWhite from '../../assets/Category-Camera-White.png'
-import HeadphoneWhite from '../../assets/Category-Headphone-White.png'
-import GamesWhite from '../../assets/Category-Gamepad-White.png'
+
 const Categories = ({subtitle, title, dictCategoria}) => {
+
+    const [hoveredCategory, setHoveredCategory] = useState(null);
+
+    const handleMouseEnter = (label) => {
+        setHoveredCategory(label);
+    };
+
+    const handleMouseLeave = () => {
+        setHoveredCategory(null);
+    };
+
+
     return (
         <div className={styles.section}>
             <div className={styles.conteiner}>
@@ -27,11 +34,18 @@ const Categories = ({subtitle, title, dictCategoria}) => {
             <div className={styles.listCategories}>
                 {
                     dictCategoria.map((categoria) => (
-                        <div className={styles.unCategoria}>
+                        <div 
+                            className={styles.unCategoria} 
+                            key={categoria.label}
+                            onMouseEnter={() => handleMouseEnter(categoria.label)}
+                            onMouseLeave={handleMouseLeave}
+                        >
                             <img
-                                src={categoria.imgCategoria}
+                                src={hoveredCategory === categoria.label ? categoria.imgCategoriaHover : categoria.imgCategoria}
                                 alt={categoria.nomeCategoria}
-                                style={{ cursor: 'pointer' }}
+                                style={{
+                                    cursor: 'pointer'
+                                }}
                             />
                             <p>{categoria.nomeCategoria}</p>
                         </div>
